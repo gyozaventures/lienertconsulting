@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Mail } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const handleContactClick = () => {
@@ -42,6 +43,16 @@ const Hero = () => {
             Jetzt&nbsp;Kontakt&nbsp;aufnehmen
           </button>
         </div>
+      </div>
+
+      {/* Footer with Impressum link */}
+      <div className="absolute bottom-4 left-6 z-10">
+        <Link 
+          to="/impressum" 
+          className="text-white/70 hover:text-white text-sm transition-colors"
+        >
+          Impressum
+        </Link>
       </div>
     </div>
   );
