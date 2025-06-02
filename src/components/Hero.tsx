@@ -5,7 +5,7 @@ import { Mail } from 'lucide-react';
 
 const Hero = () => {
   const handleContactClick = () => {
-    window.location.href = 'mailto:contact@linakconsulting.com';
+    window.location.href = 'mailto:contact@lienertconsulting.com';
   };
 
   return (
@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         {/* Company Name */}
         <h1 className="text-6xl md:text-8xl font-light text-white mb-8 tracking-wide">
-          <span className="font-thin">Linak</span>
+          <span className="font-thin">Lienert</span>
           <span className="font-normal ml-4">Consulting</span>
         </h1>
 
