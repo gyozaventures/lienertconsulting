@@ -29,16 +29,16 @@ const Hero = () => {
           </h1>
 
           {/* Main Headline - using responsive text sizing similar to clamp() */}
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight mb-8 drop-shadow-lg">
+          <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold text-white leading-tight mb-8 drop-shadow-lg">
             Erstklassige Unterstützung in Venture&nbsp;Building, Marketing und Operations – direkt aus dem Herzen Zürichs.
           </h2>
 
           {/* CTA Button */}
           <button
             onClick={handleContactClick}
-            className="inline-block px-9 py-4 rounded-full font-semibold text-gray-900 bg-white/85 backdrop-blur-sm hover:-translate-y-1 transition-transform duration-300 text-lg"
+            className="inline-block px-4 py-2 rounded-full font-semibold text-gray-900 bg-white/85 backdrop-blur-sm hover:-translate-y-1 transition-transform duration-300 text-sm"
           >
-            <Mail className="inline mr-2 h-5 w-5" />
+            <Mail className="inline mr-2 h-4 w-4" />
             Jetzt&nbsp;Kontakt&nbsp;aufnehmen
           </button>
         </div>
