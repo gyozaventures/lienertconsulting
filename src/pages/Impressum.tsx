@@ -37,7 +37,7 @@ const Impressum = () => {
 
             <section>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Vertretungsberechtigte Person</h2>
-              <p>Max Lienert, Geschäftsführer</p>
+              <p>Moritz Lienert, Geschäftsführer</p>
             </section>
 
             <section>
