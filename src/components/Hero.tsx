@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -45,13 +44,19 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Footer with Impressum link */}
-      <div className="absolute bottom-4 left-6 z-10">
+      {/* Footer with Impressum and Datenschutz links */}
+      <div className="absolute bottom-4 left-6 z-10 flex space-x-4">
         <Link 
           to="/impressum" 
           className="text-white/70 hover:text-white text-sm transition-colors"
         >
           Impressum
+        </Link>
+        <Link 
+          to="/datenschutz" 
+          className="text-white/70 hover:text-white text-sm transition-colors"
+        >
+          Datenschutzerklärung
         </Link>
       </div>
     </div>
