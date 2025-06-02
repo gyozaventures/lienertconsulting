@@ -41,14 +41,6 @@ const Impressum = () => {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-gray-900 mb-4">Handelsregister</h2>
-              <div className="space-y-2">
-                <p><strong>Handelsregister:</strong> Handelsregister des Kantons Zürich</p>
-                <p><strong>CHE-Nummer:</strong> CHE-123.456.789</p>
-              </div>
-            </section>
-
-            <section>
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Mehrwertsteuernummer</h2>
               <p>CHE-123.456.789 MWST</p>
             </section>
