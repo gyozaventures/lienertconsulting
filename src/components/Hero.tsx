@@ -23,10 +23,15 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 flex items-center justify-center h-full text-center px-6">
         <div className="max-w-3xl">
-          {/* Main Headline - using responsive text sizing similar to clamp() */}
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight mb-8 drop-shadow-lg">
-            Erstklassige Unterstützung in Venture&nbsp;Building, Marketing und Operations – direkt aus dem Herzen Zürichs.
+          {/* Company Name Headline */}
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-tight mb-6 drop-shadow-lg">
+            <span className="font-bold">Lienert</span> Consulting
           </h1>
+
+          {/* Main Headline - using responsive text sizing similar to clamp() */}
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold text-white leading-tight mb-8 drop-shadow-lg">
+            Erstklassige Unterstützung in Venture&nbsp;Building, Marketing und Operations – direkt aus dem Herzen Zürichs.
+          </h2>
 
           {/* CTA Button */}
           <button
