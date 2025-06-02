@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
@@ -24,9 +23,8 @@ const Impressum = () => {
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Angaben gemäss OR Art. 957</h2>
               <div className="space-y-2">
                 <p><strong>Lienert Consulting</strong></p>
-                <p>Musterstrasse 123</p>
-                <p>8001 Zürich</p>
-                <p>Schweiz</p>
+                <p>Poststrasse 4b</p>
+                <p>6300 Zug</p>
               </div>
             </section>
 
