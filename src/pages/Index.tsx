@@ -4,7 +4,7 @@ import Hero from '../components/Hero';
 
 const Index = () => {
   return (
-    <div className="min-h-screen overflow-hidden">
+    <div className="h-screen overflow-hidden">
       <Hero />
     </div>
   );
